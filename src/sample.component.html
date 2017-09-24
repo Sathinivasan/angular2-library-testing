@@ -1,0 +1,40 @@
+<div class="ui card" style="margin-top:2%; margin-left: 2%;">
+  <div class="content">
+    <img class="ui avatar image" src="/imges/kumaran.png"> Kumaran Systems
+  </div>
+  <div class="image">
+    <img  class="large ui image" [src]=profile/>
+  </div>
+  <div class="content">
+    <div class="right floated meta">14h</div>
+    <img class="ui avatar image" [src]=profile> {{name}}
+  </div>
+  <div class="content">
+    <span class="right floated">
+    <i class="suitcase orange icon"></i>
+    </span>
+    {{role}}
+  </div>
+  <div class="content">
+    <span class="right floated">
+    <i class="mail teal icon"></i>{{messages}}&nbsp;&nbsp;Messages
+    </span>
+    <i class="eye icon"></i>
+    {{views}}&nbsp;&nbsp;Profile views
+  </div>
+  
+  <div class="content">
+    <span class="right floated">
+      <i class="heart outline like green icon"></i>
+      {{likes}}&nbsp;&nbsp;likes
+    </span>
+    <i class="comment blue icon"></i>
+    {{comments}}&nbsp;&nbsp;comments
+  </div>
+  <div class="extra content">
+    <div class="ui large transparent left icon input">
+      <i class="heart outline icon"></i>
+      <input type="text" placeholder="Add Comment...">
+    </div>
+  </div>
+</div>
